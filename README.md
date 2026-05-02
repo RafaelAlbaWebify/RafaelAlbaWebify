@@ -2,7 +2,7 @@
 
 IT Operations Engineer transitioning into infrastructure and cloud-focused roles.
 
-I come from a real industrial IT environment, where systems don’t fail in theory — they fail in production.  
+I come from a real industrial IT environment, where systems don’t fail in theory - they fail in production.  
 This space documents how I build, break and understand IT systems from the ground up.
 
 ---
