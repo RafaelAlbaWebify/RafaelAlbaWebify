@@ -1,67 +1,94 @@
-# Rafael Alba IT Lab
+# Rafael Alba — IT Operations & Technical Support Portfolio
 
-IT Operations Engineer transitioning into infrastructure and cloud-focused roles.
+I am an IT Operations / Technical Support professional based in Vigo, Spain, with experience supporting users, Microsoft 365, identity/access issues, Windows endpoints, DNS/network troubleshooting, infrastructure checks, ServiceNow workflows, monitoring, backup validation and technical documentation in production-critical environments.
 
-I come from a real industrial IT environment, where systems don’t fail in theory - they fail in production.  
-This space documents how I build, break and understand IT systems from the ground up.
+I come from a real industrial IT environment, where systems do not fail in theory — they fail in production.
 
----
-
-## 🔧 What I’m building
-
-- Homelabs (VirtualBox, Windows Server, networking)
-- Active Directory environments (AD, DNS, DHCP)
-- Real troubleshooting scenarios (not just setup)
-- Practical PowerShell tools for operations
+This portfolio documents practical support tools, troubleshooting labs and support workflows built around Microsoft 365, identity, endpoints, DNS/networking, documentation, PowerShell automation, SaaS support readiness and security-aware operations.
 
 ---
 
-## 🧠 How I work
+## Focus Areas
+
+- Microsoft 365 support
+- Entra ID / Azure AD access troubleshooting
+- Windows endpoint support
+- DNS and network troubleshooting
+- IT Operations in production-critical environments
+- PowerShell support tools
+- ServiceNow-style ticketing and documentation
+- SaaS / Application Support readiness
+- Security-aware IT support workflows
+- AI-assisted support with guardrails
+
+---
+
+## Featured Projects
+
+### DNS Audit Tool
+PowerShell + WPF tool for detecting DNS inconsistencies, stale records, missing PTR records and forward/reverse lookup issues.
+
+**Why it matters:** DNS problems often do not trigger obvious alerts, but they can cause authentication, connectivity and application issues.
+
+Repository: `dns-audit-tool`
+
+---
+
+### Endpoint Support Checklist
+PowerShell + WinForms utility for checking endpoint baseline information such as BIOS, Secure Boot, TPM, BitLocker and local intervention history.
+
+**Why it matters:** Endpoint support is faster and more reliable when baseline checks are repeatable and documented.
+
+Repository: `endpoint-support-checklist-powershell`
+
+---
+
+### Webify Support & Security Homelab
+A practical support-focused homelab documenting Microsoft 365, identity, endpoint, DNS/network, ticketing, SaaS support, monitoring, documentation and AI-assisted support workflows.
+
+**Why it matters:** The goal is to turn learning into visible, defensible evidence.
+
+Repository: `webify-support-security-homelab`
+
+---
+
+## Current Lab Roadmap
+
+1. Microsoft 365 access troubleshooting scenarios
+2. Entra ID / Conditional Access support scenarios
+3. Endpoint baseline and compliance checks
+4. DNS and DHCP troubleshooting scenarios
+5. ServiceNow-style ticket to KB workflow
+6. SaaS/API support troubleshooting lab
+7. Monitoring and logs review workflow
+8. AI-assisted support documentation with security guardrails
+
+---
+
+## How I Work
 
 I focus on:
 
-- Understanding how systems actually behave  
-- Reproducing real-world failures  
-- Documenting troubleshooting steps clearly  
-- Building small, realistic, testable environments  
+- Reproducing realistic support issues
+- Collecting evidence before escalation
+- Documenting symptoms, checks and outcomes
+- Building small tools that standardize repeated troubleshooting
+- Keeping security, identity and data-handling risks in mind
+- Turning technical learning into practical support workflows
 
 ---
 
-## 📁 Featured Work
+## Professional Direction
 
-### 🧪 Homelab (in progress)
-- VirtualBox lab
-- Internal network
-- Active Directory setup
-- Domain join + troubleshooting
+I am targeting remote, hybrid or strong local roles in:
 
-### 🛠 Tools
+- IT Operations
+- Technical Support Engineering
+- Microsoft 365 Support
+- Identity / Access Support
+- Infrastructure Support
+- Endpoint Support
+- SaaS / Application Support
+- Security-aware IT Operations
 
-- DNS Audit Tool  
-  → Detects inconsistencies, stale records and operational issues
-
-- Endpoint Support Utility  
-  → Helps inspect device state and track interventions
-
----
-
-## 🎯 Current focus
-
-- Active Directory fundamentals  
-- DNS and DHCP behavior  
-- Network troubleshooting  
-- PowerShell for operations  
-
----
-
-## 📍 Goal
-
-Move into a remote or hybrid role in:
-
-- IT Infrastructure  
-- Cloud Support  
-- Systems Administration  
-
----
-
-Building • Learning • Solving
+I am not positioning this portfolio as SOC Analyst, DevOps Engineer, Cloud Architect or AI Engineer evidence. The focus is practical IT Operations and Technical Support.
