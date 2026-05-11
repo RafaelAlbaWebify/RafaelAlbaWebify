@@ -6,13 +6,6 @@ These projects reflect practical support workflows I build and document from rea
 
 ---
 
-## 🧩 Microsoft 365 & Identity Support
-
-- [Microsoft 365 Access Troubleshooting Lab](https://github.com/RafaelAlbaWebify/m365-access-troubleshooting-lab) *(planned)*
-- [Entra ID Conditional Access Support Scenario](https://github.com/RafaelAlbaWebify/entra-id-support-scenarios) *(planned)*
-
----
-
 ## 🖥️ Endpoint Support
 
 - [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell)
@@ -29,14 +22,16 @@ These projects reflect practical support workflows I build and document from rea
 ## ⚙️ Support Automation & Documentation
 
 - [Webify Support & Security Homelab](https://github.com/RafaelAlbaWebify/webify-support-security-homelab)
-- [Support Ticket to KB Workflow](https://github.com/RafaelAlbaWebify/support-ticket-to-kb-workflow) *(planned)*
 
 ---
 
-## 🔐 Security-Aware & AI-Assisted Support
+## 🚧 In Progress
 
-- [AI-Assisted Support Workflow with Guardrails](https://github.com/RafaelAlbaWebify/ai-assisted-support-guardrails) *(planned)*
-- [Suspicious Email Support Triage Checklist](https://github.com/RafaelAlbaWebify/email-security-support-triage) *(planned)*
+- Microsoft 365 Access Troubleshooting Lab
+- Entra ID Conditional Access Support Scenario
+- Support Ticket to KB Workflow
+- SaaS / API Support Troubleshooting Lab
+- AI-Assisted Support Workflow with Guardrails
 
 ---
 
