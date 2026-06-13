@@ -16,7 +16,15 @@ I build small tools and lab projects that make support work more repeatable: col
 
 ## Featured IT Operations Projects
 
-### [TRACE — Troubleshooting Reports Across Cloud & Endpoints](https://github.com/RafaelAlbaWebify/trace-ops)
+### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt-job-tracker)
+
+Local-first job opportunity tracker and review workflow built with React, TypeScript, FastAPI, and Python.
+
+JOLT imports captured or pasted job text, supports LinkedIn-assisted capture and manual job-posting input, parses opportunities, applies configurable fit rules, explains recommendations, detects duplicate/history signals, exports evidence, and tracks reviewed jobs locally through Batch Review and Job Tracker workflows.
+
+It is not positioned as a scraper, AI recruiter, or auto-apply bot. Its portfolio value is in the parser, rule profiles, explainable decisions, privacy-aware local workflow, export package, tracker, and safe automation boundaries.
+
+### [TRACE - Troubleshooting Reports Across Cloud & Endpoints](https://github.com/RafaelAlbaWebify/trace-ops)
 
 Local-first IT Operations diagnostic toolkit for turning Microsoft 365, Entra ID, endpoint, DNS, mail flow, and infrastructure evidence into support-ready troubleshooting reports.
 
@@ -37,12 +45,6 @@ PowerShell WinForms utility for repeatable endpoint support checks, including TP
 ### [Enterprise Ops + AI Platform Support Lab](https://github.com/RafaelAlbaWebify/enterprise-ops-ai-platform-support-lab)
 
 Support-focused lab for incident handling, identity/access troubleshooting, API error interpretation, basic pipeline failure triage, documentation, and escalation practice.
-
-### [JOLT — Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt-job-tracker)
-
-Local workflow automation project built with React and FastAPI. It parses user-provided job text or page text, applies configurable fit rules, explains decisions, exports results, and tracks reviewed jobs locally.
-
-JOLT is not positioned as a scraper or auto-apply bot. Its portfolio value is in the parser, rule profiles, explainable decisions, export package, local tracker, and safe workflow boundaries.
 
 ### Homelab and future projects
 
