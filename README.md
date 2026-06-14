@@ -20,9 +20,9 @@ I build small tools and lab projects that make support work more repeatable: col
 
 Local-first job opportunity tracker and review workflow built with React, TypeScript, FastAPI, and Python.
 
-JOLT imports captured or pasted job text, supports LinkedIn-assisted capture and manual job-posting input, parses opportunities, applies configurable fit rules, explains recommendations, detects duplicate/history signals, exports evidence, and tracks reviewed jobs locally through Batch Review and Job Tracker workflows.
+JOLT imports captured or pasted job text, supports optional local supervised capture, parses opportunities, applies configurable fit rules, explains recommendations, preserves a resumable Batch Review queue, merges new captures into pending review items, supports profile reclassification, exports evidence, and tracks reviewed jobs locally through Batch Review and Job Tracker workflows.
 
-It is not positioned as a scraper, AI recruiter, or auto-apply bot. Its portfolio value is in the parser, rule profiles, explainable decisions, privacy-aware local workflow, export package, tracker, and safe automation boundaries.
+It is not positioned as a scraper, AI recruiter, or auto-apply bot. Its portfolio value is in the parser, rule profiles, explainable decisions, privacy-aware local workflow, persistent review queue, export package, tracker, and safe automation boundaries.
 
 ### [TRACE - Troubleshooting Reports Across Cloud & Endpoints](https://github.com/RafaelAlbaWebify/trace-ops)
 
