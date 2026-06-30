@@ -1,26 +1,26 @@
 # Rafael Alba
 
-Remote IT Operations & Systems Support professional based in Vigo, Spain, focused on Microsoft 365, Entra ID, identity and access troubleshooting, endpoint support, infrastructure diagnostics, documentation, and practical automation.
+IT Operations & Application Support professional based in Vigo, Spain, focused on evidence-based troubleshooting, Microsoft 365 and Entra ID support, endpoint issues, DNS and infrastructure diagnostics, documentation, escalation, and practical automation.
 
-I build small tools and lab projects that make support work more repeatable: collect evidence, classify issues, document findings, and create clearer handovers for technical teams.
+I use GitHub as a proof layer: small local-first tools, support labs, evidence workflows, and documentation that show how I investigate issues, structure findings, and create clearer handovers.
 
-## Positioning
+## Portfolio Focus
 
-- IT Operations and Systems Support
-- Microsoft 365 and Entra ID troubleshooting
-- Identity, access, authentication, and user-impact investigation
-- Endpoint and Windows support evidence collection
-- Infrastructure troubleshooting: DNS, connectivity, service checks, VMware/vSphere exposure, backups awareness
+- IT Operations and Application Support
+- Microsoft 365, Entra ID, identity, access, and authentication troubleshooting
+- Windows endpoint support and evidence collection
+- DNS, connectivity, service checks, VMware/vSphere exposure, and backup-awareness scenarios
+- SQL-dependent application support from the support/escalation side
 - Incident handling, escalation notes, runbooks, and knowledge base writing
-- PowerShell, Python, React, and FastAPI used through practical support-focused tools
+- PowerShell, Python, React, TypeScript, and FastAPI used in practical support-focused tools
 
-## Featured IT Operations Projects
+## Featured Projects
 
 ### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt-job-tracker)
 
 Local-first job opportunity tracker and review workflow built with React, TypeScript, FastAPI, and Python.
 
-JOLT imports captured or pasted job text, supports optional local supervised capture, parses opportunities, applies configurable fit rules, explains recommendations, preserves a resumable Batch Review queue, merges new captures into pending review items, supports profile reclassification, exports evidence, and tracks reviewed jobs locally through Batch Review and Job Tracker workflows.
+JOLT imports captured or pasted job text, parses opportunities, applies configurable fit rules, explains recommendations, preserves a resumable Batch Review queue, supports profile reclassification, exports evidence, and tracks reviewed jobs locally through Batch Review and Job Tracker workflows.
 
 It is not positioned as a scraper, AI recruiter, or auto-apply bot. Its portfolio value is in the parser, rule profiles, explainable decisions, privacy-aware local workflow, persistent review queue, export package, tracker, and safe automation boundaries.
 
@@ -40,19 +40,19 @@ It focuses on practical DNS issues that often appear as unrelated support sympto
 
 PowerShell WinForms utility for repeatable endpoint support checks, including TPM, Secure Boot, BitLocker, BIOS information, local intervention notes, and exportable evidence.
 
-## Support Labs and Workflow Tools
-
 ### [Enterprise Ops + AI Platform Support Lab](https://github.com/RafaelAlbaWebify/enterprise-ops-ai-platform-support-lab)
 
-Support-focused lab for incident handling, identity/access troubleshooting, API error interpretation, basic pipeline failure triage, documentation, and escalation practice.
+Canonical support/interview lab for incident handling, identity and access troubleshooting, API error interpretation, basic pipeline failure triage, documentation, escalation practice, and practical lab scenarios.
 
-### Homelab and future projects
+The previous VirtualBox foundation material has been consolidated into this repository under `lab-foundation/virtualbox/`, so the lab now has one main home instead of multiple small lab repos.
 
-I am also building a practical homelab and future small-business workflow tools under the same theme: realistic IT Operations scenarios, evidence collection, documentation, and repeatable troubleshooting.
+### [rafaelalba-site](https://github.com/RafaelAlbaWebify/rafaelalba-site)
+
+Live personal website repository for [rafaelalba.com](https://rafaelalba.com/). This is the only active website repo.
 
 ## What This Portfolio Is Meant To Show
 
-This GitHub is not meant to present me as a senior cloud architect, senior DevOps engineer, MLOps engineer, or offensive security specialist.
+This GitHub is not meant to present me as a senior cloud architect, senior DevOps engineer, MLOps engineer, offensive security specialist, DBA, or software agency.
 
 It is meant to show how I approach IT Operations and support problems:
 
