@@ -12,7 +12,7 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 |---|---|---|---|
 | IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-ops) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
 | ASE | INFIOS | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
-| SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
+| SOC | [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
 | AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
 | IPPO | OPSCORE | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
 | AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
@@ -62,7 +62,7 @@ INFIOS is the application support engineering flagship.
 
 Its purpose is to support realistic application incidents: logs, HTTP/API errors, SQL evidence, user impact, reproduction steps, escalation notes, RCA drafts and vendor/developer handovers.
 
-### SOC / CustosOps - Defensive Security Operations Workbench
+### SOC / [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) - Defensive Security Operations Workbench
 
 CustosOps is the defensive security operations flagship.
 
