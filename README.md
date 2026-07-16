@@ -49,7 +49,7 @@ Across the portfolio, I favour:
 
 ## Current flagship: TRACE
 
-[TRACE IAM Evidence](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the current maintained TRACE project.
+[TRACE IAM Evidence](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the current maintained TRACE project. The current public release is **v0.3.0**.
 
 It is a completed local-first, read-only IAM evidence investigation workbench supporting:
 
