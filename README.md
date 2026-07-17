@@ -1,80 +1,115 @@
 # Rafael Alba
 
-IT Operations and Application Support professional based in Vigo, Spain.
+IT Operations, Application Support and Automation-focused professional based in Vigo, Spain.
 
-I build practical, local-first tools that turn scattered technical evidence into clearer troubleshooting paths, safer next actions and stronger escalation handovers.
+I am building a practical technical portfolio around six areas: identity and access management, application support, security operations, IT automation, infrastructure / production operations, and AI development.
 
-My current portfolio is focused on three connected areas:
+The purpose of this GitHub is not to collect random labs. It is to build practical tools, workbenches, reports and evidence workflows that support real capability, contract readiness and future B2B work through my Irish LTD, Webify Digital Solutions Ltd.
 
-- **Application Support and Support Engineering**
-- **IAM and access-support investigation**
-- **IT Operations, automation and production evidence**
+## Rafael Alba Technical Portfolio
 
-## Featured projects
+| Area | Flagship | Target role | Purpose |
+|---|---|---|---|
+| IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-ops) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
+| ASE | INFIOS | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
+| SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
+| AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
+| IPPO | OPSCORE | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
+| AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
 
-| Project | Area | What it demonstrates |
-|---|---|---|
-| [TRACE IAM Evidence](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM / Access Support | Evidence-led access investigations, persisted cases, structured findings, uncertainty, immutable runs, timeline, comparison and support-ready reports |
-| [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support | L1-to-L2 incident workflow, logs and evidence, diagnostic actions, possible explanations, escalation packages and recovery validation |
-| [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations | DNS, HTTP, TLS and dependency evidence correlation with provenance, timelines, missing evidence and safe next checks |
-| [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT Automation | Approved-target checks, immutable run evidence, change detection, action tracking and bounded operator-controlled execution |
+## Operating Principles
 
-## Supporting projects
+- Evidence before action
+- Read-only first where possible
+- Human approval before risky changes
+- Practical tools over passive certificates
+- Clear reports, runbooks and escalation notes
+- Personal brand first; Webify Digital Solutions Ltd as legal/B2B vehicle
 
-- [JOLT](https://github.com/RafaelAlbaWebify/jolt-job-tracker) — local-first parsing, explainable classification, controlled workflow automation and exportable decision history.
-- [DNS Audit Tool](https://github.com/RafaelAlbaWebify/dns-audit-tool) — read-only DNS consistency evidence and CSV reporting for infrastructure support.
-- [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell) — repeatable Windows endpoint checks and ticket-ready evidence.
-- [Enterprise Ops + AI Platform Support Lab](https://github.com/RafaelAlbaWebify/enterprise-ops-ai-platform-support-lab) — supporting archive of incident, API, identity and operational-support practice material.
-- [rafaelalba.com](https://rafaelalba.com/) — personal website and portfolio.
+## Current Flagships and Supporting Projects
 
-## How I approach support work
+### IAM / TRACE - Troubleshooting Reports Across Cloud & Endpoints
 
-```text
-user or business impact
-  -> collect reliable evidence
-  -> separate facts from assumptions
-  -> identify supporting, contradicting and missing information
-  -> choose safe checks and explicit non-actions
-  -> document the result for resolution or escalation
-```
+[TRACE](https://github.com/RafaelAlbaWebify/trace-ops) is the current public IAM and support-diagnostics flagship.
 
-Across the portfolio, I favour:
+It is a local-first diagnostic toolkit for turning Microsoft 365, Entra ID, endpoint, DNS, mail-flow and infrastructure evidence into support-ready troubleshooting reports.
 
-- evidence before action;
-- read-only investigation first;
-- clear uncertainty and limitations;
-- deterministic and reviewable outputs;
-- human approval before risky changes;
-- practical runbooks, reports and handovers.
+Current status: public sample-mode MVP. It demonstrates diagnostic workflows, analyzer rules, local history, JSON/HTML reports, frontend/backend architecture, PowerShell collectors, documentation and tests. Real Microsoft Graph collection is planned only as a future read-only operational step.
 
-## Current flagship: TRACE
+### IPPO / OPSCORE - Infrastructure & Production Operations Workbench
 
-[TRACE IAM Evidence](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the current maintained TRACE project. The current public release is **v0.3.0**.
+OPSCORE is the planned infrastructure and production operations flagship.
 
-It is a completed local-first, read-only IAM evidence investigation workbench supporting:
+Its purpose is to collect and structure evidence around DNS, certificates, service reachability, HTTP checks, ports, dependencies, backup awareness, monitoring signals, incident timelines and RCA-style reports.
 
-- Conditional Access evidence review;
-- resource-assignment investigation;
-- Guest and B2B lifecycle investigation.
+The existing [DNS Audit Tool](https://github.com/RafaelAlbaWebify/dns-audit-tool) becomes the first OPSCORE module: DNS evidence and consistency audit.
 
-TRACE preserves case context, evidence provenance, supporting and contradicting evidence, missing information, safe checks, explicit non-actions, immutable analysis history, timeline, run comparison and Markdown/JSON reports.
+### AIDE / YTIS - AI Development & Source Intelligence
 
-The earlier `trace-ops` repository is archived and retained only as development history.
+YTIS is the AI development and GenAI application flagship.
 
-## Professional direction
+Its purpose is to ingest transcripts, documents or source material; extract structured insight; classify opportunities; identify risks and limitations; and generate reviewed reports for technical learning, business research and practical decision support.
 
-I am targeting remote roles in:
+### AUTO / WATCH - Automation & Operational Monitoring
 
-- Enterprise Application Support;
-- Software or Technical Support Engineering;
-- Production Support;
-- IAM / Access Operations;
-- senior IT Operations roles with strong troubleshooting and automation responsibilities.
+WATCH is the automation and operational monitoring flagship.
 
-Webify Digital Solutions Ltd is my Irish legal and B2B vehicle for contract delivery; Rafael Alba remains the public professional brand.
+Its purpose is to evolve from practical WebOps checks into a broader control workbench for website/domain monitoring, recurring checks, report generation, workflow automation, lead/control workflows and n8n/API-based operations.
+
+### ASE / INFIOS - Application Support Workbench
+
+INFIOS is the application support engineering flagship.
+
+Its purpose is to support realistic application incidents: logs, HTTP/API errors, SQL evidence, user impact, reproduction steps, escalation notes, RCA drafts and vendor/developer handovers.
+
+### SOC / CustosOps - Defensive Security Operations Workbench
+
+CustosOps is the defensive security operations flagship.
+
+Its purpose is to support safe triage and evidence workflows around suspicious emails, risky sign-ins, endpoint/security signals, email-domain configuration, security-hygiene checks and escalation notes.
+
+## Supporting Projects
+
+### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt-job-tracker)
+
+Supporting AIDE/AUTO portfolio project.
+
+JOLT is a local-first job opportunity tracker and review workflow built with React, TypeScript, FastAPI and Python. It demonstrates parser design, configurable rules, explainable decisions, local data handling, export workflows and safe automation boundaries.
+
+### [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell)
+
+Supporting IAM/SOC/IPPO utility.
+
+PowerShell WinForms utility for repeatable endpoint support checks, including TPM, Secure Boot, BitLocker, BIOS information, local intervention notes and exportable evidence.
+
+### [Enterprise Ops + AI Platform Support Lab](https://github.com/RafaelAlbaWebify/enterprise-ops-ai-platform-support-lab)
+
+Supporting archive and incubator.
+
+This repository contains support/interview practice material for incident handling, identity and access troubleshooting, API error interpretation, pipeline failure triage, documentation, escalation and lab scenarios. Its strongest material will gradually feed TRACE, INFIOS, WATCH, OPSCORE and YTIS.
+
+### [rafaelalba-site](https://github.com/RafaelAlbaWebify/rafaelalba-site)
+
+Personal website repository for [rafaelalba.com](https://rafaelalba.com/).
+
+## What This Portfolio Is Meant To Show
+
+This GitHub is not meant to present me as a senior cloud architect, senior DevOps engineer, MLOps engineer, offensive security specialist, DBA, or software agency.
+
+It is meant to show how I build practical capability through focused tools and workflows:
+
+- understand user and business impact
+- collect useful evidence
+- separate symptoms from likely causes
+- document clearly
+- automate repeatable checks where practical
+- create support-ready outputs and handovers
+- build safe local tools around real operational workflows
+- connect study, practice, portfolio evidence and future contract work
 
 ## Contact
 
 - Website: [rafaelalba.com](https://rafaelalba.com/)
 - LinkedIn: [linkedin.com/in/rafael-alba-tech](https://www.linkedin.com/in/rafael-alba-tech/)
-- Email: [rafael@rafaelalba.com](mailto:rafael@rafaelalba.com)
+- Email: rafael@rafaelalba.com
+- B2B / contract services can be delivered through Webify Digital Solutions Ltd, Ireland
