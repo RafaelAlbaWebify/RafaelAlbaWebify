@@ -11,10 +11,10 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 | Area | Flagship | Target role | Purpose |
 |---|---|---|---|
 | IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
-| ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
+| ASE | INFIOS | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
 | SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
-| AUTO | [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
-| IPPO | [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
+| AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
+| IPPO | OPSCORE | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
 | AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
 
 ## Operating Principles
@@ -36,7 +36,7 @@ It is a local-first diagnostic toolkit for turning Microsoft 365, Entra ID, endp
 
 Current status: public sample-mode MVP. It demonstrates diagnostic workflows, analyzer rules, local history, JSON/HTML reports, frontend/backend architecture, PowerShell collectors, documentation and tests. Real Microsoft Graph collection is planned only as a future read-only operational step.
 
-### IPPO / [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) - Infrastructure & Production Operations Workbench
+### IPPO / OPSCORE - Infrastructure & Production Operations Workbench
 
 OPSCORE is the planned infrastructure and production operations flagship.
 
@@ -50,13 +50,13 @@ YTIS is the AI development and GenAI application flagship.
 
 Its purpose is to ingest transcripts, documents or source material; extract structured insight; classify opportunities; identify risks and limitations; and generate reviewed reports for technical learning, business research and practical decision support.
 
-### AUTO / [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) - Automation & Operational Monitoring
+### AUTO / WATCH - Automation & Operational Monitoring
 
 WATCH is the automation and operational monitoring flagship.
 
 Its purpose is to evolve from practical WebOps checks into a broader control workbench for website/domain monitoring, recurring checks, report generation, workflow automation, lead/control workflows and n8n/API-based operations.
 
-### ASE / [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) - Application Support Workbench
+### ASE / INFIOS - Application Support Workbench
 
 INFIOS is the application support engineering flagship.
 
