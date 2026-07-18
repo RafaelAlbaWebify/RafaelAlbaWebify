@@ -14,7 +14,7 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 | ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
 | SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
 | AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
-| IPPO | OPSCORE | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
+| IPPO | [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
 | AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
 
 ## Operating Principles
@@ -36,13 +36,13 @@ It is a local-first IAM evidence investigation workbench for structuring redacte
 
 Current status: portfolio-ready public application with guided investigation workflows for Conditional Access, resource-assignment and Guest/B2B access scenarios, local history, reports, frontend/backend architecture, PowerShell collectors, documentation and tests. It remains read-only and uses public-safe sample data rather than a live tenant connection.
 
-### IPPO / OPSCORE - Infrastructure & Production Operations Workbench
+### IPPO / [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) - Infrastructure & Production Operations Workbench
 
-OPSCORE is the planned infrastructure and production operations flagship.
+[OPSCORE](https://github.com/RafaelAlbaWebify/opscore) is the completed public infrastructure and production-operations flagship.
 
-Its purpose is to collect and structure evidence around DNS, certificates, service reachability, HTTP checks, ports, dependencies, backup awareness, monitoring signals, incident timelines and RCA-style reports.
+It is a local-first, read-only incident evidence workbench for structuring service and dependency context, importing sanitized evidence, running bounded DNS/HTTP/TLS and TCP checks, correlating deterministic findings, preserving immutable revisions, recording explicit operator assessments and generating reviewable incident reports.
 
-The existing [DNS Audit Tool](https://github.com/RafaelAlbaWebify/dns-audit-tool) becomes the first OPSCORE module: DNS evidence and consistency audit.
+Current status: completed portfolio-ready v0.9.0 with a FastAPI service, Typer CLI, professional local browser interface, SQLite incident and assessment history, desktop and narrow-screen browser workflows, Linux and Windows verification, safety documentation and release notes.
 
 ### AIDE / YTIS - AI Development & Source Intelligence
 
