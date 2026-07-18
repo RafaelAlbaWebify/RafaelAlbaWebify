@@ -1,121 +1,111 @@
 # Rafael Alba
 
-IT Operations, Application Support and Automation-focused professional based in Vigo, Spain.
+IT Operations and Application Support professional based in Vigo, Spain, building practical evidence-led tools for enterprise support, troubleshooting and operational automation.
 
-I am building a practical technical portfolio around six areas: identity and access management, application support, security operations, IT automation, infrastructure / production operations, and AI development.
+My primary career focus is **Enterprise Application Support, Technical Support and IT Operations**. The portfolio also demonstrates related capability in IAM, infrastructure and production operations, defensive security, automation and applied AI.
 
-The purpose of this GitHub is not to collect random labs. It is to build practical tools, workbenches, reports and evidence workflows that support real capability, contract readiness and future B2B work through my Irish LTD, Webify Digital Solutions Ltd.
+The repositories are designed around real support workflows: collecting useful evidence, separating facts from assumptions, documenting uncertainty, preserving review history and producing clear escalation or handover outputs.
 
-## Rafael Alba Technical Portfolio
+## Portfolio overview
 
-| Area | Flagship | Target role | Purpose |
+| Project | Portfolio role | What it demonstrates | Status |
 |---|---|---|---|
-| IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
-| ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
-| SOC | [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
-| AUTO | [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT Automation Engineer | Safe recurring execution, website/domain checks, immutable evidence and operational reports |
-| IPPO | [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
-| AIDE | [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
+| [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Primary Application Support flagship | Incident investigation, sanitized logs, observations, diagnostic actions, escalation packages, problem management, handovers and service context | Released `v0.1.0` |
+| [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM and access-support flagship | Evidence-led Conditional Access, resource-assignment and Guest/B2B investigations with immutable history and explicit uncertainty | Portfolio-ready |
+| [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure and Production Operations flagship | Service context, DNS/HTTP/TLS/TCP evidence, deterministic findings, assessment history and incident reports | Portfolio MVP `v0.9.0` |
+| [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT automation flagship | Approved-target scheduling, bounded read-only checks, idempotent execution, change detection, immutable evidence and operational actions | Released `v0.1.0` |
+| [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) | Defensive security operations flagship | Endpoint, DNS, log and risky-sign-in evidence workflows with reporting, redaction and escalation boundaries | Released `v1.0.0` |
+| [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) | Applied AI and source-intelligence flagship | Multi-source evidence extraction, human-reviewed findings, reusable insight cards and reviewed reports | Released `v1.0.0` |
 
-## Operating Principles
+## Primary professional focus
 
-- Evidence before action
-- Read-only first where possible
-- Human approval before risky changes
-- Practical tools over passive certificates
-- Clear reports, runbooks and escalation notes
-- Personal brand first; Webify Digital Solutions Ltd as legal/B2B vehicle
+### Application Support / INFIOS
 
-## Current Flagships and Supporting Projects
+[INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) is a local-first Application Support investigation and operations workbench.
 
-### IAM / [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) - Troubleshooting Reports Across Cloud & Endpoints
+It structures incident cases, evidence, observations, diagnostic actions, escalation packages, recovery validation, problem records, known-error guidance, handovers, service context and descriptive analytics. It is the clearest representation of my target Application Support, Software Support, Technical Support Engineer II and Production Support roles.
 
-[TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the completed public IAM and support-diagnostics flagship.
+### IAM and access support / TRACE
 
-It is a local-first IAM evidence investigation workbench for structuring redacted access-support evidence, evaluating deterministic troubleshooting rules, identifying missing evidence and producing safe, support-ready outputs.
+[TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is a read-only IAM evidence investigation workbench for redacted access-support cases.
 
-Current status: portfolio-ready public application with guided investigation workflows for Conditional Access, resource-assignment and Guest/B2B access scenarios, local history, reports, frontend/backend architecture, PowerShell collectors, documentation and tests. It remains read-only and uses public-safe sample data rather than a live tenant connection.
+It evaluates deterministic Conditional Access, resource-assignment and Guest/B2B scenarios; shows supporting, contradicting and missing evidence; preserves immutable investigation history; and produces reviewable support outputs without connecting to a live tenant or performing remediation.
 
-### IPPO / [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) - Infrastructure & Production Operations Workbench
+### Infrastructure and production operations / OPSCORE
 
-[OPSCORE](https://github.com/RafaelAlbaWebify/opscore) is the completed public infrastructure and production-operations flagship.
+[OPSCORE](https://github.com/RafaelAlbaWebify/opscore) is a local-first incident evidence workbench for infrastructure and production operations.
 
-It is a local-first, read-only incident evidence workbench for structuring service and dependency context, importing sanitized evidence, running bounded DNS/HTTP/TLS and TCP checks, correlating deterministic findings, preserving immutable revisions, recording explicit operator assessments and generating reviewable incident reports.
+It combines service and dependency context, sanitized imports, bounded DNS/HTTP/TLS/TCP checks, deterministic findings, missing-evidence guidance, explicit operator assessment, immutable revisions and incident reports.
 
-Current status: completed portfolio-ready v0.9.0 with a FastAPI service, Typer CLI, professional local browser interface, SQLite incident and assessment history, desktop and narrow-screen browser workflows, Linux and Windows verification, safety documentation and release notes.
+## Supporting specialisms
 
-### AIDE / [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) - AI Development & Source Intelligence
+### Automation / WATCH
 
-[YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) is the AI development and GenAI application flagship.
+[WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) manages approved public targets, deterministic schedules, bounded read-only checks, immutable run evidence, retries, change detection, operational actions and review-ready reports.
 
-Its purpose is to ingest transcripts, documents or source material; extract structured insight; classify opportunities; identify risks and limitations; and generate reviewed reports for technical learning, business research and practical decision support.
+It demonstrates safe automation design: explicit scope, idempotent execution, failure handling, documented scheduling and verifiable release workflows.
 
-### AUTO / [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) - Workflow Automation & Technical Control Hub
+### Defensive security / CustosOps
 
-[WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) is the completed IT automation and operational-control flagship.
+[CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) is a read-only defensive evidence and reporting console for Windows and Microsoft-oriented support environments.
 
-It is a local-first workbench for managing approved public targets, executing bounded read-only website and domain checks, calculating deterministic due occurrences, preventing duplicate execution, retaining immutable run and retry evidence, detecting changes, creating traceable operational actions and producing review-ready reports.
+It supports endpoint, DNS, application-log, Windows-event, IIS and synthetic risky-sign-in evidence workflows. It is not a SIEM, EDR, vulnerability scanner, penetration-testing framework or live tenant-monitoring service.
 
-Current status: completed and released as [v0.1.0](https://github.com/RafaelAlbaWebify/watch-automation-control-hub/releases/tag/v0.1.0), with a professional TRACE-aligned browser interface, modular Python architecture, FastAPI and Typer surfaces, SQLite-free local evidence storage, Windows Task Scheduler installation/verification/rollback workflows, bounded operator-controlled retries, Linux and Windows validation, clean-checkout proof, Playwright desktop/mobile review and a published Windows package.
+### Applied AI / YTIS
 
-WATCH demonstrates how I turn an operational requirement into a safe, testable and releasable automation system: evidence before action, explicit failure handling, idempotent execution, documented runbooks and repository-native release verification.
+[YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) is a local-first AI source-intelligence workbench.
 
-### ASE / [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) - Application Support Workbench
+It turns public-safe source material into evidence-linked findings, requires explicit human review, saves investigations, creates reusable accepted-finding insight cards and generates reviewed reports. The deterministic offline provider remains the default verification path.
 
-[INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) is the completed application support engineering flagship.
+## Supporting projects
 
-It is a local-first Application Support workbench for structured incident cases, evidence, observations, diagnostic actions, escalation packages, recovery validation, problem management, known-error guidance, handovers, service context and descriptive analytics.
+### [JOLT — Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt)
 
-Current status: completed portfolio-ready v1 with persistent SQLite storage, five browser surfaces, automated Python, browser and Windows verification, an installable wheel and a published Windows release.
+A local-first job-search decision, application-tracking and market-intelligence workbench. It preserves source evidence, normalizes and deduplicates postings, evaluates them through versioned profiles, records separate human decisions and tracks applications and outcomes.
 
-### SOC / [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) - Defensive Security Operations Workbench
+### [DNS Audit Tool](https://github.com/RafaelAlbaWebify/dns-audit-tool)
 
-[CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) is the defensive security operations flagship.
-
-Its purpose is to support safe triage and evidence workflows around suspicious emails, risky sign-ins, endpoint/security signals, email-domain configuration, security-hygiene checks and escalation notes.
-
-## Supporting Projects
-
-### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt)
-
-Supporting AIDE/AUTO portfolio project.
-
-JOLT is the current local-first job-search decision, application-tracking and market-intelligence workbench. It preserves source evidence, normalizes and deduplicates job postings, evaluates them through versioned profiles, records separate human decisions, tracks applications and outcomes, and exports the evidence chain.
+A read-only PowerShell WPF utility for DNS evidence collection, forward/reverse consistency checks, possible stale-record classification and ticket-ready CSV exports. It is a specialist supporting module for OPSCORE.
 
 ### [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell)
 
-Supporting IAM/SOC/IPPO utility.
-
-PowerShell WinForms utility for repeatable endpoint support checks, including TPM, Secure Boot, BitLocker, BIOS information, local intervention notes and exportable evidence.
+A PowerShell WinForms utility for repeatable endpoint-support checks, including TPM, Secure Boot, BitLocker, BIOS information, intervention notes and exportable evidence.
 
 ### [Enterprise Ops + AI Platform Support Lab](https://github.com/RafaelAlbaWebify/enterprise-ops-ai-platform-support-lab)
 
-Supporting archive and incubator.
-
-This repository contains support/interview practice material for incident handling, identity and access troubleshooting, API error interpretation, pipeline failure triage, documentation, escalation and lab scenarios. Its strongest material will gradually feed TRACE, INFIOS, WATCH, OPSCORE and YTIS.
+An active supporting lab and incubator for incident handling, identity and access troubleshooting, API error interpretation, documentation, escalation and practical support scenarios. Strong material can be promoted into the relevant flagship repository.
 
 ### [rafaelalba-site](https://github.com/RafaelAlbaWebify/rafaelalba-site)
 
-Personal website repository for [rafaelalba.com](https://rafaelalba.com/).
+Source repository for [rafaelalba.com](https://rafaelalba.com/).
 
-## What This Portfolio Is Meant To Show
+## Operating principles
 
-This GitHub is not meant to present me as a senior cloud architect, senior DevOps engineer, MLOps engineer, offensive security specialist, DBA, or software agency.
+- Evidence before action
+- Read-only first where practical
+- Human approval before risky changes
+- Facts, inference, contradictions and missing evidence kept separate
+- Practical tools over passive claims
+- Clear reports, runbooks, handovers and escalation notes
+- Public-safe or sanitized portfolio data only
 
-It is meant to show how I build practical capability through focused tools and workflows:
+## What this portfolio is meant to show
 
-- understand user and business impact
-- collect useful evidence
-- separate symptoms from likely causes
-- document clearly
-- automate repeatable checks where practical
-- create support-ready outputs and handovers
-- build safe local tools around real operational workflows
-- connect study, practice, portfolio evidence and future contract work
+This portfolio does not present me as a senior cloud architect, senior DevOps engineer, MLOps engineer, offensive security specialist, DBA or software agency.
+
+It demonstrates how I approach operational and support problems:
+
+- understand user and business impact;
+- collect relevant evidence;
+- separate symptoms from possible explanations;
+- document uncertainty and limitations;
+- automate repeatable checks where appropriate;
+- produce support-ready reports, handovers and escalation packages;
+- build safe local tools around real operational workflows.
 
 ## Contact
 
 - Website: [rafaelalba.com](https://rafaelalba.com/)
 - LinkedIn: [linkedin.com/in/rafael-alba-tech](https://www.linkedin.com/in/rafael-alba-tech/)
 - Email: rafael@rafaelalba.com
-- B2B / contract services can be delivered through Webify Digital Solutions Ltd, Ireland
+- B2B contracting: Webify Digital Solutions Ltd, Ireland
