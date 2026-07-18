@@ -13,7 +13,7 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 | IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
 | ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
 | SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
-| AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
+| AUTO | [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT Automation Engineer | Safe recurring execution, website/domain checks, immutable evidence and operational reports |
 | IPPO | [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
 | AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
 
@@ -50,11 +50,15 @@ YTIS is the AI development and GenAI application flagship.
 
 Its purpose is to ingest transcripts, documents or source material; extract structured insight; classify opportunities; identify risks and limitations; and generate reviewed reports for technical learning, business research and practical decision support.
 
-### AUTO / WATCH - Automation & Operational Monitoring
+### AUTO / [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) - Workflow Automation & Technical Control Hub
 
-WATCH is the automation and operational monitoring flagship.
+[WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) is the completed IT automation and operational-control flagship.
 
-Its purpose is to evolve from practical WebOps checks into a broader control workbench for website/domain monitoring, recurring checks, report generation, workflow automation, lead/control workflows and n8n/API-based operations.
+It is a local-first workbench for managing approved public targets, executing bounded read-only website and domain checks, calculating deterministic due occurrences, preventing duplicate execution, retaining immutable run and retry evidence, detecting changes, creating traceable operational actions and producing review-ready reports.
+
+Current status: completed and released as [v0.1.0](https://github.com/RafaelAlbaWebify/watch-automation-control-hub/releases/tag/v0.1.0), with a professional TRACE-aligned browser interface, modular Python architecture, FastAPI and Typer surfaces, SQLite-free local evidence storage, Windows Task Scheduler installation/verification/rollback workflows, bounded operator-controlled retries, Linux and Windows validation, clean-checkout proof, Playwright desktop/mobile review and a published Windows package.
+
+WATCH demonstrates how I turn an operational requirement into a safe, testable and releasable automation system: evidence before action, explicit failure handling, idempotent execution, documented runbooks and repository-native release verification.
 
 ### ASE / [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) - Application Support Workbench
 
