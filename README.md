@@ -30,11 +30,11 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 
 ### IAM / [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) - Troubleshooting Reports Across Cloud & Endpoints
 
-[TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the current public IAM and support-diagnostics flagship.
+[TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) is the completed public IAM and support-diagnostics flagship.
 
-It is a local-first diagnostic toolkit for turning Microsoft 365, Entra ID, endpoint, DNS, mail-flow and infrastructure evidence into support-ready troubleshooting reports.
+It is a local-first IAM evidence investigation workbench for structuring redacted access-support evidence, evaluating deterministic troubleshooting rules, identifying missing evidence and producing safe, support-ready outputs.
 
-Current status: public sample-mode MVP. It demonstrates diagnostic workflows, analyzer rules, local history, JSON/HTML reports, frontend/backend architecture, PowerShell collectors, documentation and tests. Real Microsoft Graph collection is planned only as a future read-only operational step.
+Current status: portfolio-ready public application with guided investigation workflows for Conditional Access, resource-assignment and Guest/B2B access scenarios, local history, reports, frontend/backend architecture, PowerShell collectors, documentation and tests. It remains read-only and uses public-safe sample data rather than a live tenant connection.
 
 ### IPPO / OPSCORE - Infrastructure & Production Operations Workbench
 
@@ -58,9 +58,11 @@ Its purpose is to evolve from practical WebOps checks into a broader control wor
 
 ### ASE / INFIOS - Application Support Workbench
 
-INFIOS is the application support engineering flagship.
+INFIOS is the completed application support engineering flagship.
 
-Its purpose is to support realistic application incidents: logs, HTTP/API errors, SQL evidence, user impact, reproduction steps, escalation notes, RCA drafts and vendor/developer handovers.
+It is a local-first Application Support workbench for structured incident cases, evidence, observations, diagnostic actions, escalation packages, recovery validation, problem management, known-error guidance, handovers, service context and descriptive analytics.
+
+Current status: completed portfolio-ready v1 with persistent SQLite storage, five browser surfaces, automated Python, browser and Windows verification, an installable wheel and a published Windows release.
 
 ### SOC / CustosOps - Defensive Security Operations Workbench
 
