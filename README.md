@@ -11,7 +11,7 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 | Area | Flagship | Target role | Purpose |
 |---|---|---|---|
 | IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
-| ASE | INFIOS | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
+| ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
 | SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
 | AUTO | WATCH | IT Automation Engineer | Monitoring, workflow automation, website/domain checks and operational reports |
 | IPPO | OPSCORE | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
@@ -56,9 +56,9 @@ WATCH is the automation and operational monitoring flagship.
 
 Its purpose is to evolve from practical WebOps checks into a broader control workbench for website/domain monitoring, recurring checks, report generation, workflow automation, lead/control workflows and n8n/API-based operations.
 
-### ASE / INFIOS - Application Support Workbench
+### ASE / [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) - Application Support Workbench
 
-INFIOS is the completed application support engineering flagship.
+[INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) is the completed application support engineering flagship.
 
 It is a local-first Application Support workbench for structured incident cases, evidence, observations, diagnostic actions, escalation packages, recovery validation, problem management, known-error guidance, handovers, service context and descriptive analytics.
 
