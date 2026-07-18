@@ -12,10 +12,10 @@ The purpose of this GitHub is not to collect random labs. It is to build practic
 |---|---|---|---|
 | IAM | [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM Engineer | Identity, access and Microsoft 365 / Entra ID-style diagnostics |
 | ASE | [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support Engineer | Logs, APIs, SQL evidence, RCA notes and application incident workbench |
-| SOC | CustosOps | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
+| SOC | [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) | SOC Analyst | Defensive security triage and security-hygiene evidence workflows |
 | AUTO | [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT Automation Engineer | Safe recurring execution, website/domain checks, immutable evidence and operational reports |
 | IPPO | [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure / Production Operations Engineer | Infrastructure, service, DNS, certificate, dependency and production evidence |
-| AIDE | YTIS | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
+| AIDE | [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) | AI Developer / GenAI Application Developer | AI-powered source intelligence, extraction, classification and report generation |
 
 ## Operating Principles
 
@@ -44,9 +44,9 @@ It is a local-first, read-only incident evidence workbench for structuring servi
 
 Current status: completed portfolio-ready v0.9.0 with a FastAPI service, Typer CLI, professional local browser interface, SQLite incident and assessment history, desktop and narrow-screen browser workflows, Linux and Windows verification, safety documentation and release notes.
 
-### AIDE / YTIS - AI Development & Source Intelligence
+### AIDE / [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) - AI Development & Source Intelligence
 
-YTIS is the AI development and GenAI application flagship.
+[YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) is the AI development and GenAI application flagship.
 
 Its purpose is to ingest transcripts, documents or source material; extract structured insight; classify opportunities; identify risks and limitations; and generate reviewed reports for technical learning, business research and practical decision support.
 
@@ -68,19 +68,19 @@ It is a local-first Application Support workbench for structured incident cases,
 
 Current status: completed portfolio-ready v1 with persistent SQLite storage, five browser surfaces, automated Python, browser and Windows verification, an installable wheel and a published Windows release.
 
-### SOC / CustosOps - Defensive Security Operations Workbench
+### SOC / [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) - Defensive Security Operations Workbench
 
-CustosOps is the defensive security operations flagship.
+[CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) is the defensive security operations flagship.
 
 Its purpose is to support safe triage and evidence workflows around suspicious emails, risky sign-ins, endpoint/security signals, email-domain configuration, security-hygiene checks and escalation notes.
 
 ## Supporting Projects
 
-### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt-job-tracker)
+### [JOLT - Job Opportunity Logic Tracker](https://github.com/RafaelAlbaWebify/jolt)
 
 Supporting AIDE/AUTO portfolio project.
 
-JOLT is a local-first job opportunity tracker and review workflow built with React, TypeScript, FastAPI and Python. It demonstrates parser design, configurable rules, explainable decisions, local data handling, export workflows and safe automation boundaries.
+JOLT is the current local-first job-search decision, application-tracking and market-intelligence workbench. It preserves source evidence, normalizes and deduplicates job postings, evaluates them through versioned profiles, records separate human decisions, tracks applications and outcomes, and exports the evidence chain.
 
 ### [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell)
 
