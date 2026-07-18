@@ -8,47 +8,16 @@ Across the projects, the same approach appears consistently: collect useful evid
 
 ## Main projects
 
-### [TRACE — IAM Evidence Investigation](https://github.com/RafaelAlbaWebify/trace-iam-evidence)
+| Project | Focus | What it shows | Status |
+|---|---|---|---|
+| [TRACE](https://github.com/RafaelAlbaWebify/trace-iam-evidence) | IAM and access support | Redacted access investigations, Conditional Access, resource assignment, Guest/B2B scenarios, supporting and contradicting evidence, missing-evidence guidance and immutable history | Portfolio-ready |
+| [INFIOS](https://github.com/RafaelAlbaWebify/infios-app-support-workbench) | Application Support | Incident cases, sanitized logs, diagnostic actions, escalation packages, recovery validation, problem management, known errors, handovers and service context | Released `v0.1.0` |
+| [OPSCORE](https://github.com/RafaelAlbaWebify/opscore) | Infrastructure and production operations | Service and dependency context, bounded DNS/HTTP/TLS/TCP checks, deterministic findings, operator assessment, immutable revisions and incident reports | Portfolio MVP `v0.9.0` |
+| [WATCH](https://github.com/RafaelAlbaWebify/watch-automation-control-hub) | IT automation | Approved-target scheduling, bounded read-only checks, idempotent execution, change detection, retries, immutable evidence and operational actions | Released `v0.1.0` |
+| [CustosOps](https://github.com/RafaelAlbaWebify/CustosOps) | Defensive security operations | Endpoint, DNS, log, IIS and synthetic risky-sign-in evidence workflows with reporting, redaction and escalation boundaries | Released `v1.0.0` |
+| [YTIS](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence) | Applied AI and source intelligence | Multi-source evidence extraction, human-reviewed findings, reusable insight cards and reviewed reports | Released `v1.0.0` |
 
-TRACE is a local-first, read-only IAM and access-support investigation workbench.
-
-It structures redacted access cases, evaluates deterministic Conditional Access, resource-assignment and Guest/B2B scenarios, shows supporting, contradicting and missing evidence, preserves immutable investigation history and produces reviewable support outputs without connecting to a live tenant or performing remediation.
-
-This is the strongest representation of how I approach identity, access and evidence-led support investigations.
-
-### [INFIOS — Application Support Workbench](https://github.com/RafaelAlbaWebify/infios-app-support-workbench)
-
-INFIOS is a local-first Application Support investigation and operations workbench.
-
-It brings together incident cases, sanitized logs, observations, diagnostic actions, escalation packages, recovery validation, problem records, known-error guidance, shift handovers, service context and descriptive analytics.
-
-It reflects the type of work required in Application Support, Software Support, Technical Support Engineer II and Production Support roles.
-
-### [OPSCORE — Infrastructure and Production Operations](https://github.com/RafaelAlbaWebify/opscore)
-
-OPSCORE is a local-first incident evidence workbench for infrastructure and production operations.
-
-It combines service and dependency context, sanitized imports, bounded DNS, HTTP, TLS and TCP checks, deterministic findings, missing-evidence guidance, explicit operator assessment, immutable revisions and incident reporting.
-
-## Other completed projects
-
-### [WATCH — Workflow Automation and Technical Control](https://github.com/RafaelAlbaWebify/watch-automation-control-hub)
-
-WATCH manages approved public targets, deterministic schedules, bounded read-only checks, immutable run evidence, retries, change detection, operational actions and review-ready reports.
-
-It demonstrates safe automation design through explicit scope, idempotent execution, failure handling, documented scheduling and verifiable release workflows.
-
-### [CustosOps — Defensive Security Operations](https://github.com/RafaelAlbaWebify/CustosOps)
-
-CustosOps is a read-only defensive evidence and reporting console for Windows and Microsoft-oriented support environments.
-
-It supports endpoint, DNS, application-log, Windows-event, IIS and synthetic risky-sign-in evidence workflows. It is designed for triage, reporting and escalation rather than live monitoring or automated remediation.
-
-### [YTIS — AI Source Intelligence](https://github.com/RafaelAlbaWebify/ytis-ai-source-intelligence)
-
-YTIS is a local-first source-intelligence workbench for applied AI and structured research workflows.
-
-It turns public-safe source material into evidence-linked findings, requires explicit human review, saves investigations, creates reusable insight cards and produces reviewed reports. Version `v1.0.0` is the first public portfolio release.
+TRACE is the clearest representation of how I approach identity, access and evidence-led support investigations. INFIOS and OPSCORE extend the same approach into application support and infrastructure operations.
 
 ## Supporting projects
 
