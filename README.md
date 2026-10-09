@@ -19,6 +19,12 @@ Across the projects, the same approach appears consistently: collect useful evid
 
 INFIOS, OPSCORE, TRACE and WATCH form the professional core of the portfolio: application support, IT/cloud operations, identity/Modern Workplace and automation. CustosOps and YTIS demonstrate cybersecurity and applied-AI capabilities around that core.
 
+## Professional-origin vs portfolio-built projects
+
+The portfolio deliberately separates professional experience from public demonstration material. Some tools trace their earliest operational roots to problems encountered in real support and production environments and were later rebuilt, sanitized and expanded for public use. Others are purpose-built portfolio projects or labs used to demonstrate a workflow or technical capability.
+
+For example, the operational precursor to TRACE was created to improve endpoint-migration tracking and technician work visibility in an industrial production environment. DNS Audit Tool also grew from a real infrastructure troubleshooting need involving long-standing DNS inconsistencies affecting application communication. The public repositories contain no employer, customer or production data and should not be interpreted as copies of internal systems.
+
 ## Supporting evidence
 
 ### [Endpoint Support Checklist](https://github.com/RafaelAlbaWebify/endpoint-support-checklist-powershell)
